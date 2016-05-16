@@ -1,0 +1,76 @@
+.allStaffJumbotron{
+    padding-top: 25px;
+}
+
+.navbar{
+    padding: 0px;
+    position: relative;
+}
+
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+.containerHeader{
+    opacity: 0.95;
+    padding-bottom: 50px;
+    
+}
+
+.containerMain{
+    
+}
+
+.facebookicon{
+    width: 25%;
+    height: 25%;
+}
+#fbicon{
+    width: 2%;
+    height: 2%;
+}
+#instaicon{
+    width: 2%;
+    height: 2%;
+}
+.postarea{
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 5px;
+    padding: 25px;
+    background-color:#FEF5C3;
+}
+
+.myfooter{
+    background-color: #202020;
+    //padding-top: 20px;
+    //padding-bottom: 20px;
+    //position: relative;
+    color: white;
+}
+
+hr.posthr{
+    border-style:solid;
+    background-color:#000000;
+    border-color:#000000;
+    color:white;
+}
+
+h1.reviewheader{
+    padding-top: 10px;
+}
+
+
+
+$btn-primary-bg: #7087D2;
+$dropdown-link-hover-bg: #7087D2;
+$dropdown-link-hover-color: #7087D2;
+$dropdown-link-active-color: #7087D2;
+$component-active-bg: #7087D2;
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";

@@ -1,0 +1,68 @@
+.homepagecontainer{
+    min-height: 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    
+}
+
+.mainframephotos{
+    margin-left: 1%;
+    margin-right: 1%;
+    //margin-bottom: 50px;
+    width: 98%;
+    //height: 40vh;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.gdyniaphoto#gdyp{
+    background-size:  contain;
+    background-position: center center;
+    border-radius: 0 0 0 0;
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.gdanskphoto#gdap{
+    background-size: contain;
+    background-position: center center;
+    border-radius: 0 0 0 0;
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.sopotphoto#sopp{
+    background-size:  contain;
+    background-position: center;
+    border-radius: 0 0 0 0;
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.centerparagraph {
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+
+.lastarticlesone{
+    margin: auto;
+    width: 75%;
+    height: 400px;
+    
+}
+.lastarticlestwo{
+    margin: auto;
+    width: 75%;
+    height: 400px;
+    
+}

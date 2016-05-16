@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<title>3CT</title>
+</style>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+</head>
+<body>
+  <div id="wrapper">
+		<div id="header">
+		</div>
+		<div id="content">
+		  <%=render 'home/header'%>
+		  <%= yield %>
+		</div>
+		
+		
+  <div class="myfooter">
+   
+        
+          <center>
+            <span><a id="fblink"><img src="https://threecitytastes-joogway.c9users.io/assets/fb-icon.png" id="fbicon"></img></a><a><img src="https://threecitytastes-joogway.c9users.io/assets/insta-icon.png" id="instaicon"></img></a></span>
+            Copyright &copy; 3CityTastes 2016</center>
+     
+  </div>
+
+	</div>
+  <script></script>
+	
+
+
+</html><!DOCTYPE html>

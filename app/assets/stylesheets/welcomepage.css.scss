@@ -1,0 +1,26 @@
+.WelcomePage{
+    //height: 800px;
+    height:100vh;
+    margin: auto;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.btn-welcome-background{
+    size: 100%;
+    min-height:100vh;
+    position: relative;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 350px;
+}
+
+.btn-welcome{
+    padding: 60px 180px;
+    background-image: url("logo.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    size: auto;
+    position: relative;    
+}
